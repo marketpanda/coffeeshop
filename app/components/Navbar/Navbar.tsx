@@ -14,10 +14,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#home-section', current: false },
+    //{ name: 'Home', href: '#home-section', current: false },
     { name: 'About us', href: '#about-section', current: false },
-    { name: 'Recipe', href: '#cook-section', current: false },
-    { name: 'Gallery', href: '#gallery-section', current: false },
+    //{ name: 'Gallery', href: '#gallery-section', current: false },
+    { name: 'Find us', href: '#cook-section', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -40,13 +40,13 @@ const Navbar = () => {
                             <div className="flex sm:hidden flex-shrink-0 items-center border-right">
                                 <Image src="/images/Logo/Logo.svg" alt="logo" width={36} height={36} />
                                 <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                                    Chef&apos;s Kitchen.
+                                    International Comrades Coffee Shop
                                 </Link>
                             </div>
                             <div className="hidden sm:flex flex-shrink-0 items-center border-right">
                                 <Image src="/images/Logo/Logo.svg" alt="logo" width={56} height={56} />
                                 <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                                    Chef&apos;s Kitchen.
+                                International Comrades Coffee Shop
                                 </Link>
                             </div>
 

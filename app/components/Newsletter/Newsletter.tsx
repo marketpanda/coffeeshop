@@ -15,9 +15,17 @@ const Newsletter = () => {
                                 <h3 className="text-lg font-normal text-white mb-3 ls-51"> NEWSLETTER </h3>
                             </Fade>
                             <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                                <h3 className="text-3xl md:text-5xl font-semibold text-white mb-8">
-                                    Subscribe our <br /> newsletter.
-                                </h3>
+                                <h4 className="text-3xl md:text-3xl font-semibold text-white mb-8">
+                                    <ul>
+                                        <li>Monday 07:30–17:30</li>
+                                        <li>Tuesday 07:30–17:30</li>
+                                        <li>Wednesday 07:30–17:30</li>
+                                        <li>Thursday 07:30–17:30</li>
+                                        <li>Friday 07:30–17:30</li>
+                                        <li>Saturday 07:30–17:30</li>
+                                        <li>Sunday 07:30–17:30</li>
+                                    </ul> 
+                                </h4>
                             </Fade>
 
                             <div>
