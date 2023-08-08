@@ -27,7 +27,7 @@ const Data = () => {
                 <div className="sm:block">
                     <div className="space-y-1 px-5 pt-2 pb-3">
                         {navigation.map((item) => (
-                            <Link
+                            <a
                                 key={item.name}
                                 href={item.href}
                                 className={classNames(
@@ -37,7 +37,7 @@ const Data = () => {
                                 aria-current={item.current ? 'page' : undefined}
                             >
                                 {item.name}
-                            </Link>
+                            </a>
                         ))}
                         <div className="mt-4"></div>
                         <button className='flex justify-center text-base w-full font-medium rounded-full bg-bgpink text-pink py-3 px-4 lg:px-8 navbutton hover:text-white'>Sign in</button>
