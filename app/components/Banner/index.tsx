@@ -19,7 +19,7 @@ const Banner = () => {
                             </h1>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                            <p className='text-grey lg:text-lg font-normal mb-10 lg:text-start text-center'>Savor London's coffee culture at our cozy shop, where rich artisanal brews blend with the city's vibrant atmosphere. Join us for a delightful caffeine experience in the heart of the capital.</p>
+                            <p className='text-grey lg:text-lg font-normal mb-10 lg:text-start text-center'>Savor London&apos;s coffee culture at our cozy shop, where rich artisanal brews blend with the city&apos;s vibrant atmosphere. Join us for a delightful caffeine experience in the heart of the capital.</p>
                         </Fade>
                         <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
                             <div className='md:flex align-middle justify-center lg:justify-start'>
