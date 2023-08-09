@@ -19,7 +19,7 @@ const Banner = () => {
                             </h1>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                            <p className='text-grey lg:text-lg font-normal mb-10 lg:text-start text-center'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br /> accusantium doloremque laudantium, totam</p>
+                            <p className='text-grey lg:text-lg font-normal mb-10 lg:text-start text-center'>Savor London's coffee culture at our cozy shop, where rich artisanal brews blend with the city's vibrant atmosphere. Join us for a delightful caffeine experience in the heart of the capital.</p>
                         </Fade>
                         <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
                             <div className='md:flex align-middle justify-center lg:justify-start'>
@@ -34,7 +34,7 @@ const Banner = () => {
                             <Image src={'/images/Banner/pizza.svg'} alt="pizza-image" width={68} height={68} />
                             <p className='text-lg font-normal'>More than 500+ <br /> recipes.</p>
                         </div>
-                        <Image src="/images/Banner/banner-image.png" alt="nothing" width={1000} height={805} />
+                        <Image src="/images/Banner/coffee_front.jpg" alt="nothing" width={1000} height={805} />
                     </div>
                 </div>
             </div>
