@@ -4,8 +4,7 @@ import { Fade } from "react-awesome-reveal";
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
  
-
-
+ 
 const Gallery = () => {
     const [emblaRef] = useEmblaCarousel({loop:true}, [Autoplay()])
 
@@ -19,21 +18,17 @@ const Gallery = () => {
             <> {
                 pics.map((i) => {
                     
-                    const imageUrl = `/images/Gallery/${i}.jpg`;
-                    
+                    const imageUrl = `/images/Gallery/${i}.jpg`; 
                     return (
+                        // <div key={i} className="flex-none flex-grow-0 flex-shrink-0 w-full min-w-0">
                         <div key={i} className="flex-none flex-grow-0 flex-shrink-0 w-full min-w-0">
-                            <Image src={imageUrl} alt={`Image ${i}`} width={300} height={300} />  
-                        </div>
-
-                    )
-                    
+                            <Image src={imageUrl} alt={`Image ${i}`}  width={800} height={300}  />  
+                        </div> 
+                    ) 
                 })
             }
             </>
-        )
-        
-        
+        )  
     }
     
     return (
@@ -51,13 +46,13 @@ const Gallery = () => {
 
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-12 my-16 sm:space-x-6 space-y-6 md:space-y-0 px-6'>
+                {/* <div className='grid grid-cols-1 md:grid-cols-12 my-16 sm:space-x-6 space-y-6 md:space-y-0 px-6'>
 
-                    {/* <div className='col-span-6 flex justify-center overflow-hidden rounded-3xl'>
+                    <div className='col-span-6 flex justify-center overflow-hidden rounded-3xl'>
                         <Image src="/images/Gallery/foodone.jpg" alt="pizza-one" width={1000} height={805} className="inner-img"/>
-                    </div> */}
+                    </div>
 
-                    {/* <div className='col-span-6 flex justify-center'>
+                    <div className='col-span-6 flex justify-center'>
                         <div className="grid grid-rows-1 grid-flow-row gap-4">
                             <div className="row-span-1 overflow-hidden rounded-3xl">
                                 <Image src="/images/Gallery/foodtwo.jpg" alt="pizza-two" width={700} height={405} className="inner-img"/>
@@ -71,19 +66,13 @@ const Gallery = () => {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div> 
 
-                     
-
-                    
-
-                </div>
+                </div> */}
             </div>
-             
-            
-
+              
             {/* .embla */}
-            <div className="overflow-hidden" ref={emblaRef}> 
+            <div className="w-full sm:w-7/12 overflow-hidden border-4 mx-auto" ref={emblaRef}> 
             
                 {/* .embla__container */}
                 <div className="flex">
