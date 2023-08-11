@@ -42,11 +42,7 @@ const cardData: cardDataType[] = [
 ]
 
 const Work = () => {
-
-    const { isMapLoaded } = useLoadScript({
-        googleMapsApiKey: ''
-    })
-
+ 
     return (
 
         <div>
